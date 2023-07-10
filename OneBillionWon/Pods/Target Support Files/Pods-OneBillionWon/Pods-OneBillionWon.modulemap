@@ -1,0 +1,6 @@
+module Pods_OneBillionWon {
+  umbrella header "Pods-OneBillionWon-umbrella.h"
+
+  export *
+  module * { export * }
+}

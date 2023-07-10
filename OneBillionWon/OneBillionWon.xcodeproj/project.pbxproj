@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E2F0B03C96313C1A82F28A7 /* libPods-OneBillionWon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B732BD64C2121E065DA0BE /* libPods-OneBillionWon.a */; };
+		9056695A2A5AB678008EDF00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905669592A5AB678008EDF00 /* AppDelegate.swift */; };
+		9056695C2A5AB678008EDF00 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9056695B2A5AB678008EDF00 /* SceneDelegate.swift */; };
+		9056695E2A5AB678008EDF00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9056695D2A5AB678008EDF00 /* ViewController.swift */; };
+		905669612A5AB678008EDF00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9056695F2A5AB678008EDF00 /* Main.storyboard */; };
+		905669642A5AB678008EDF00 /* OneBillionWon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 905669622A5AB678008EDF00 /* OneBillionWon.xcdatamodeld */; };
+		905669662A5AB679008EDF00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 905669652A5AB679008EDF00 /* Assets.xcassets */; };
+		905669692A5AB679008EDF00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 905669672A5AB679008EDF00 /* LaunchScreen.storyboard */; };
+		905669742A5AC070008EDF00 /* MoneyLogView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 905669732A5AC070008EDF00 /* MoneyLogView.storyboard */; };
+		905669762A5B72AA008EDF00 /* FirstView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 905669752A5B72AA008EDF00 /* FirstView.storyboard */; };
+		9056697A2A5BC026008EDF00 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905669792A5BC026008EDF00 /* DetailViewController.swift */; };
+		90AB1B392A5BC52900FBDE94 /* MoneyData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AB1B382A5BC52900FBDE94 /* MoneyData+CoreDataProperties.swift */; };
+		90AB1B3A2A5BC52900FBDE94 /* MoneyData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AB1B372A5BC52900FBDE94 /* MoneyData+CoreDataClass.swift */; };
+		90AB1B3D2A5BC5C200FBDE94 /* TotalMoney+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AB1B3C2A5BC5C200FBDE94 /* TotalMoney+CoreDataClass.swift */; };
+		90AB1B3E2A5BC5C200FBDE94 /* TotalMoney+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AB1B3B2A5BC5C200FBDE94 /* TotalMoney+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71B732BD64C2121E065DA0BE /* libPods-OneBillionWon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneBillionWon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		905669562A5AB678008EDF00 /* OneBillionWon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneBillionWon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		905669592A5AB678008EDF00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9056695B2A5AB678008EDF00 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9056695D2A5AB678008EDF00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		905669602A5AB678008EDF00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		905669632A5AB678008EDF00 /* OneBillionWon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OneBillionWon.xcdatamodel; sourceTree = "<group>"; };
+		905669652A5AB679008EDF00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		905669682A5AB679008EDF00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9056696A2A5AB679008EDF00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		905669732A5AC070008EDF00 /* MoneyLogView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MoneyLogView.storyboard; sourceTree = "<group>"; };
+		905669752A5B72AA008EDF00 /* FirstView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FirstView.storyboard; sourceTree = "<group>"; };
+		905669792A5BC026008EDF00 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		90AB1B372A5BC52900FBDE94 /* MoneyData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MoneyData+CoreDataClass.swift"; path = "/Users/leeseungjae/OneBillionWon/OneBillionWon/OneBillionWon/MoneyData+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		90AB1B382A5BC52900FBDE94 /* MoneyData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MoneyData+CoreDataProperties.swift"; path = "/Users/leeseungjae/OneBillionWon/OneBillionWon/OneBillionWon/MoneyData+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		90AB1B3B2A5BC5C200FBDE94 /* TotalMoney+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "TotalMoney+CoreDataProperties.swift"; path = "/Users/leeseungjae/OneBillionWon/OneBillionWon/OneBillionWon/Models/TotalMoney+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		90AB1B3C2A5BC5C200FBDE94 /* TotalMoney+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "TotalMoney+CoreDataClass.swift"; path = "/Users/leeseungjae/OneBillionWon/OneBillionWon/OneBillionWon/Models/TotalMoney+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		AD5EA20E537AB386AD15F1DE /* Pods-OneBillionWon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneBillionWon.debug.xcconfig"; path = "Target Support Files/Pods-OneBillionWon/Pods-OneBillionWon.debug.xcconfig"; sourceTree = "<group>"; };
+		EACF8CDBD6F18DD7EACCECEF /* Pods-OneBillionWon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneBillionWon.release.xcconfig"; path = "Target Support Files/Pods-OneBillionWon/Pods-OneBillionWon.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		905669532A5AB678008EDF00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E2F0B03C96313C1A82F28A7 /* libPods-OneBillionWon.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CE34BCB703F70C96AD9B2E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71B732BD64C2121E065DA0BE /* libPods-OneBillionWon.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9056694D2A5AB678008EDF00 = {
+			isa = PBXGroup;
+			children = (
+				905669582A5AB678008EDF00 /* OneBillionWon */,
+				905669572A5AB678008EDF00 /* Products */,
+				95E78365D52BFC97206A707F /* Pods */,
+				6CE34BCB703F70C96AD9B2E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		905669572A5AB678008EDF00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				905669562A5AB678008EDF00 /* OneBillionWon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		905669582A5AB678008EDF00 /* OneBillionWon */ = {
+			isa = PBXGroup;
+			children = (
+				905669592A5AB678008EDF00 /* AppDelegate.swift */,
+				9056695B2A5AB678008EDF00 /* SceneDelegate.swift */,
+				905669712A5AB6BD008EDF00 /* Models */,
+				905669702A5AB6B4008EDF00 /* Views */,
+				905669722A5AB6CD008EDF00 /* ViewModels */,
+				905669652A5AB679008EDF00 /* Assets.xcassets */,
+				905669672A5AB679008EDF00 /* LaunchScreen.storyboard */,
+				9056696A2A5AB679008EDF00 /* Info.plist */,
+				905669622A5AB678008EDF00 /* OneBillionWon.xcdatamodeld */,
+			);
+			path = OneBillionWon;
+			sourceTree = "<group>";
+		};
+		905669702A5AB6B4008EDF00 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9056695D2A5AB678008EDF00 /* ViewController.swift */,
+				9056695F2A5AB678008EDF00 /* Main.storyboard */,
+				905669752A5B72AA008EDF00 /* FirstView.storyboard */,
+				905669732A5AC070008EDF00 /* MoneyLogView.storyboard */,
+				905669792A5BC026008EDF00 /* DetailViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		905669712A5AB6BD008EDF00 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				90AB1B3C2A5BC5C200FBDE94 /* TotalMoney+CoreDataClass.swift */,
+				90AB1B3B2A5BC5C200FBDE94 /* TotalMoney+CoreDataProperties.swift */,
+				90AB1B372A5BC52900FBDE94 /* MoneyData+CoreDataClass.swift */,
+				90AB1B382A5BC52900FBDE94 /* MoneyData+CoreDataProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		905669722A5AB6CD008EDF00 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		95E78365D52BFC97206A707F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD5EA20E537AB386AD15F1DE /* Pods-OneBillionWon.debug.xcconfig */,
+				EACF8CDBD6F18DD7EACCECEF /* Pods-OneBillionWon.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		905669552A5AB678008EDF00 /* OneBillionWon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9056696D2A5AB679008EDF00 /* Build configuration list for PBXNativeTarget "OneBillionWon" */;
+			buildPhases = (
+				4443966973DD4E3247929A58 /* [CP] Check Pods Manifest.lock */,
+				905669522A5AB678008EDF00 /* Sources */,
+				905669532A5AB678008EDF00 /* Frameworks */,
+				905669542A5AB678008EDF00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneBillionWon;
+			productName = OneBillionWon;
+			productReference = 905669562A5AB678008EDF00 /* OneBillionWon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9056694E2A5AB678008EDF00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					905669552A5AB678008EDF00 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 905669512A5AB678008EDF00 /* Build configuration list for PBXProject "OneBillionWon" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9056694D2A5AB678008EDF00;
+			productRefGroup = 905669572A5AB678008EDF00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				905669552A5AB678008EDF00 /* OneBillionWon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		905669542A5AB678008EDF00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905669692A5AB679008EDF00 /* LaunchScreen.storyboard in Resources */,
+				905669662A5AB679008EDF00 /* Assets.xcassets in Resources */,
+				905669762A5B72AA008EDF00 /* FirstView.storyboard in Resources */,
+				905669612A5AB678008EDF00 /* Main.storyboard in Resources */,
+				905669742A5AC070008EDF00 /* MoneyLogView.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4443966973DD4E3247929A58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneBillionWon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		905669522A5AB678008EDF00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9056695E2A5AB678008EDF00 /* ViewController.swift in Sources */,
+				90AB1B3D2A5BC5C200FBDE94 /* TotalMoney+CoreDataClass.swift in Sources */,
+				905669642A5AB678008EDF00 /* OneBillionWon.xcdatamodeld in Sources */,
+				90AB1B3E2A5BC5C200FBDE94 /* TotalMoney+CoreDataProperties.swift in Sources */,
+				90AB1B392A5BC52900FBDE94 /* MoneyData+CoreDataProperties.swift in Sources */,
+				9056697A2A5BC026008EDF00 /* DetailViewController.swift in Sources */,
+				90AB1B3A2A5BC52900FBDE94 /* MoneyData+CoreDataClass.swift in Sources */,
+				9056695A2A5AB678008EDF00 /* AppDelegate.swift in Sources */,
+				9056695C2A5AB678008EDF00 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9056695F2A5AB678008EDF00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				905669602A5AB678008EDF00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		905669672A5AB679008EDF00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				905669682A5AB679008EDF00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9056696B2A5AB679008EDF00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9056696C2A5AB679008EDF00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9056696E2A5AB679008EDF00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD5EA20E537AB386AD15F1DE /* Pods-OneBillionWon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = APWL64J8VF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneBillionWon/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.OneBillionWon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9056696F2A5AB679008EDF00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EACF8CDBD6F18DD7EACCECEF /* Pods-OneBillionWon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = APWL64J8VF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneBillionWon/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.OneBillionWon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		905669512A5AB678008EDF00 /* Build configuration list for PBXProject "OneBillionWon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9056696B2A5AB679008EDF00 /* Debug */,
+				9056696C2A5AB679008EDF00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9056696D2A5AB679008EDF00 /* Build configuration list for PBXNativeTarget "OneBillionWon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9056696E2A5AB679008EDF00 /* Debug */,
+				9056696F2A5AB679008EDF00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		905669622A5AB678008EDF00 /* OneBillionWon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				905669632A5AB678008EDF00 /* OneBillionWon.xcdatamodel */,
+			);
+			currentVersion = 905669632A5AB678008EDF00 /* OneBillionWon.xcdatamodel */;
+			path = OneBillionWon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9056694E2A5AB678008EDF00 /* Project object */;
+}

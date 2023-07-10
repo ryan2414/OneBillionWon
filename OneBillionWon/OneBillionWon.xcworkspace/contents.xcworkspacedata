@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:/Users/leeseungjae/OneBillionWon/OneBillionWon/OneBillionWon/Models/TotalMoney+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/leeseungjae/OneBillionWon/OneBillionWon/OneBillionWon/Models/TotalMoney+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/leeseungjae/OneBillionWon/OneBillionWon/OneBillionWon/MoneyData+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/leeseungjae/OneBillionWon/OneBillionWon/OneBillionWon/MoneyData+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:OneBillionWon.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
